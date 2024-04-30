@@ -1,0 +1,60 @@
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(221, 111, 185);
+}
+
+.card {
+  background-color: rgb(239, 185, 221);
+  margin: 20px;
+  padding: 20px;
+  border: solid 1px black;
+}
+
+p {
+  font-weight: bold;
+}
+
+a {
+  margin-right: 10px;
+  color: black;
+}
+
+a:hover {
+  color: rgb(221, 111, 185);
+}
+
+input {
+  padding: 5px;
+  margin: 10px;
+}
+
+.add {
+  width: 50px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(239, 185, 221);
+  cursor: pointer;
+}
+
+.todos {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.delete {
+  margin: 10px;
+  width: 35px;
+  padding: 4px;
+  border-radius: 5px;
+  background-color: rgb(243, 101, 101);
+  cursor: pointer;
+}
